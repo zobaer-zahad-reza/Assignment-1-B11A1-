@@ -1,0 +1,20 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+/* nav section style */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.sign-btn{
+    color: #006A50;
+    border-color: #006A50;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    color: white;
+    background-color: #006A50;
+}
