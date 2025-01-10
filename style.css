@@ -6,10 +6,13 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 7px;
+    margin-left: -0.2px;
 }
 .sign-btn{
     color: #006A50;
     border-color: #006A50;
+    background-color: white;
     width: 70px;
     border-radius: 5px;
     cursor: pointer;
@@ -17,4 +20,48 @@ nav{
 .sign-btn:hover{
     color: white;
     background-color: #006A50;
+}
+/* banner section style */
+.banner-section{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.banner-content{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.banner-content h4{
+    margin-top: 10px;
+    color: #5c5a5a;
+    font-size: 15px	;
+}
+.banner-content h1{
+    font-size: 30px;
+    color: #0E0E0E;
+    font-weight: bolder;
+
+}
+.banner-img-container{
+    width: 300px;
+    margin-right: 50px;
+}
+.banner-img{
+    width: 300px;
+    
+    /* margin-left: 300px; */
+}
+.banner-btn{
+    margin-top: -10px;
+    color: #C6E4D6;
+    background-color: #006A50;
+    height: 30px;
+    width: 200px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
 }
