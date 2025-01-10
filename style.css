@@ -1,7 +1,7 @@
 *{
     margin: 20px;
     padding: 0;
-    font-family: "Work Sans", serif;
+    font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -292,9 +292,9 @@ nav{
     height: 30px;
     border-radius: 4px;
     border: 2px solid #ccc;
-    outline: none;
     text-align: center;
     margin-top: -100px;
+    outline: none;
 }
 .donate-btn-amount button{
     color: white;
@@ -305,4 +305,47 @@ nav{
     height: 35px;
     cursor: pointer;
     margin-top: -1px;
+}
+/* newsletter section style */
+.newsletter-section{
+    background: rgb(198, 228, 214);
+    border-radius: 10px;
+    text-align: center;
+}
+.newsletter-content{
+    padding: 20px;
+}
+.newsletter-content h1{
+    color: rgb(14, 14, 14);
+}
+.newsletter-content p{
+    color: rgba(14, 14, 14, 0.7);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.newsletter-content .input-box{
+    padding-left: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+.newsletter-content button{
+    height: 42px;
+    width: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    border: 1px solid rgb(0,106,80);
+    padding-left: 0px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.newsletter-content .end-msg{
+    margin-top: -5px;
+    margin-bottom: 30px;
 }
