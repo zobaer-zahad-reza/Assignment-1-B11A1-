@@ -74,6 +74,7 @@ nav{
     display: flex;
     width: 850px;
     margin-left: 0px;
+    margin-right: 0px;
 }
 .pillars-section{
     margin-left: -0.5px;
@@ -111,6 +112,7 @@ nav{
     display: flex;
     width: 900px;
     margin-left: 0px;
+    margin-right: 0px;
 }
 .vision-container img{
     width: 55px;
@@ -194,7 +196,9 @@ nav{
 }
 /* opinion section */
 .opinion{
-    margin-top: 70px
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .opinion h1{
     font-weight: 700;
