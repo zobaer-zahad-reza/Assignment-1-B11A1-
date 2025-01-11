@@ -163,6 +163,48 @@ nav{
     border: none;
     cursor: pointer;
 }
+/* opinion section */
+.opinion{
+    margin-top: 70px
+}
+.opinion h1{
+    font-weight: 700;
+    color: rgb(14, 14, 14);;
+}
+.table-container{
+    padding: 15px;
+    border-radius: 10px;
+    width: 840px;
+    height: 300px;
+    background: rgb(233, 230, 230);
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+    font-size: 14px;
+}
+tr th{
+    padding-left: 20px;
+}
+tr td{
+    padding-left: 10px;
+}
+td{
+    border: 2px solid rgb(198, 228, 214);
+}
+thead{
+    text-align: left;
+    border: 2px solid rgb(198, 228, 214);
+    background: rgb(198, 228, 214);
+    height: 50px;
+}
+ select{
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(198, 228, 214);
+    border: none;
+    outline: none;
+}
 /* news section style */
 /* 1st news */
 .news{
