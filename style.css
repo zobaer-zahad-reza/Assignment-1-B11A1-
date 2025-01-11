@@ -233,6 +233,8 @@ thead{
 }
  select{
     height: 30px;
+    padding: 7px;
+    text-align: center;
     border-radius: 4px;
     background-color: rgb(198, 228, 214);
     border: none;
